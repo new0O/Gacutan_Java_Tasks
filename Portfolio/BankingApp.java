@@ -39,7 +39,7 @@ public class BankingApp {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-//--------------------------------------------------------------------------------------------------ACCOUNTS
+//-----ACCOUNTS------
         Account[] accounts = {
             new Account("Owen Tan", 69000.00,2468),
             new Account("Victor Cu", 72000.00, 1357),
@@ -51,7 +51,7 @@ public class BankingApp {
         while (runProgram) {
             currentUser = null; 
             boolean authenticated = false;
-//--------------------------------------------------------------------------------------------LOGIN           
+//-----LOGIN------           
             while (!authenticated) {
                 welcomeBanner();
                 System.out.print("Please Enter your 4-digit Account PIN to login: ");
